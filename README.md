@@ -1,2 +1,11 @@
-# positioning
-自己从头手写了下gnss与lidar的里程计
+ 学习记录：雷达里程计与gnss（防止我哪天恢复快照把我写的东西全恢复没了）    
+ 参考链接：https://zhuanlan.zhihu.com/p/113616755  
+ 自己从零写了一遍  
+ 了解定位的框架与流程  
+ 相关理论做了一点记录：https://www.yuque.com/taolidiqiubiaoming/wpzxbw/fgeyr5rr2vul7sg5 
+ 对代码进行了大部分的注释  
+ 雷达里程计与gnss可输出为txt文件，主要为了方便进行evo评估  
+ 点云匹配进行了ndt与icp两种方式的匹配  
+ 但是icp我直接用的pcl库中的代码，从零写完整个框架实在是有点多  
+ 写到不想写了  
+ 以后再从原理上手搓吧
